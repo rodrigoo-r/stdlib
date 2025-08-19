@@ -42,7 +42,7 @@
 /// * `fd` - The file descriptor to write to.
 /// * `n` - The number of bytes to write.
 /// * `str` - The string to write.
-void std_unsafe_sys_write(const int fd, const size_t n, const char *str)
+extern void std_unsafe_sys_write(const int fd, const size_t n, const char *str)
 {
 #   if !defined (_WIN32)
     syscall(SYS_write, fd, str, n);
