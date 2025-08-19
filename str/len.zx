@@ -31,6 +31,6 @@ package std.str;
 /// this function returns in constant-time.
 /// In some weird cases, it may call
 /// `strchr()` using SIMD.
-pub fun len(s: str) {
+pub fun len(s: str) -> large {
     // Compiler-generated //
 }
