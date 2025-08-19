@@ -43,4 +43,9 @@ pub mod StdoutBuffer {
         // Replaced by actual C code //
         return "";
     }
+
+    pub fun pos(self: &StdoutBuffer, pos: num) {
+        // Interface //
+        // Replaced by actual C code //
+    }
 }
