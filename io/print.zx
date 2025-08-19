@@ -51,7 +51,7 @@ pub fun flush() {
 // standard output
 pub fun print(s: str) {
     // Get the length of the string
-    let len: very_large = std.str.len(s);
+    let len: large = std.str.len(s);
 
     // Initial flush
     if __head + len >= __max {
