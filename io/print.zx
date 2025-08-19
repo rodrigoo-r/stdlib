@@ -30,7 +30,7 @@ import "@std/buf/stdout";
 /// The global stdout buffer
 global __buf: std.buf.StdoutBuffer = std.buf.StdoutBuffer.new();
 /// The head of the buffer
-global __head: very_large = 0;
+global __head: num = 0;
 /// The maximum amount of characters the buffer can hold
 global __max: num = __buf.max();
 
