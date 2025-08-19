@@ -44,6 +44,7 @@ pub fun flush() {
 
     std.unsafe.sys.write(1, __head, __buf.leak());
     __head = 0;
+    __buf.pos(0);
 }
  
 /// The Zelix Programming Language
