@@ -32,13 +32,13 @@ pub mod StdoutBuffer {
         // Replaced by actual C code //
     }
 
-    pub fun max() -> num {
+    pub fun max(self: &StdoutBuffer) -> num {
         // Interface //
         // Replaced by actual C code //
         return 0;
     }
 
-    pub fun leak() -> str {
+    pub fun leak(self: &StdoutBuffer) -> str {
         // Interface //
         // Replaced by actual C code //
         return "";
