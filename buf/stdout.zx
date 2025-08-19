@@ -37,4 +37,10 @@ pub mod StdoutBuffer {
         // Replaced by actual C code //
         return 0;
     }
+
+    pub fun leak() -> str {
+        // Interface //
+        // Replaced by actual C code //
+        return "";
+    }
 }
