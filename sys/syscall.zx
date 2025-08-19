@@ -29,7 +29,7 @@ package std.unsafe.sys;
 /// built-in way to print to the 
 // standard output
 interop("@std/shared/sys/syscall.c")
-fun write() -> nothing {
+pub fun write() -> nothing {
     // Interface //
     // Generated at compile time from the C code //
 }
